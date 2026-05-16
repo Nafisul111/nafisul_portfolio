@@ -46,7 +46,7 @@ const Navbar = () => {
     }
 
     const handleResumeClick = () => {
-       window.open('/Nafisul_Hasan_CV.pdf', '_blank');
+       window.open('/Nafisul_Hasan_CV.pdf', '_blank', 'opener noreferrer');
     };
 
     if (!mounted) {
