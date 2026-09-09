@@ -31,18 +31,21 @@ const Experience = () => {
 
     const experiences = [
         {
-            role: 'Full Stack Consultant',
-            company: 'Independent',
+            role: 'Software Developer',
+            company: 'Jublitech Solutions Pvt Ltd',
             period: 'Aug 2025 - Present',
             location: 'Remote',
-            description: 'Architecting dreams into digital reality',
+            description: 'Developing scalable, responsive, and high-performance web applications using the MERN stack',
             achievements: [
-                'Leading application modernization projects, transforming legacy systems into modern, performant web apps',
-                'Achieved 35% faster load times through advanced React optimization techniques',
-                'Exploring cloud architecture with AWS to build scalable, resilient solutions',
-                'Mentoring junior developers and conducting tech workshops',
+                'Built and maintained full-stack web applications using React.js, Node.js, Express.js, and MongoDB',
+                'Developed reusable and scalable UI components using React.js, Redux Toolkit, React Hooks, and Tailwind CSS',
+                'Designed and integrated RESTful APIs for seamless communication between frontend and backend systems',
+                'Implemented MongoDB CRUD operations, aggregation pipelines, and efficient database queries',
+                'Diagnosed and resolved complex frontend, backend, API, and database issues through systematic problem-solving',
+                'Optimized application performance by improving component rendering, API handling, and database operations',
+                'Collaborated with developers and stakeholders to understand requirements and deliver reliable software solutions',
             ],
-            impact: 'Delivered 10+ successful projects with 100% client satisfaction',
+            impact: 'Delivered robust MERN stack solutions with a strong focus on problem solving, performance, scalability, and maintainable code',
             icon: Award,
         },
         {
@@ -90,21 +93,21 @@ const Experience = () => {
             impact: 'Processed $100K+ in transactions through payment integrations',
             icon: Code,
         },
-        {
-            role: 'Jr. Software Developer',
-            company: 'PIE INFOTECH',
-            period: 'Jul 2020 - Jan 2022',
-            location: 'Lucknow, India',
-            description: 'Where it all began',
-            achievements: [
-                'Started journey with JavaScript and React.js development',
-                'Built responsive web applications with mobile-first approach',
-                'Modernized legacy codebases with contemporary practices',
-                'Learned the art of writing clean, maintainable code',
-            ],
-            impact: 'Laid foundation for a promising tech career',
-            icon: Users,
-        },
+        // {
+        //     role: 'Jr. Software Developer',
+        //     company: 'PIE INFOTECH',
+        //     period: 'Jul 2020 - Jan 2022',
+        //     location: 'Lucknow, India',
+        //     description: 'Where it all began',
+        //     achievements: [
+        //         'Started journey with JavaScript and React.js development',
+        //         'Built responsive web applications with mobile-first approach',
+        //         'Modernized legacy codebases with contemporary practices',
+        //         'Learned the art of writing clean, maintainable code',
+        //     ],
+        //     impact: 'Laid foundation for a promising tech career',
+        //     icon: Users,
+        // },
     ]
 
     // Don't render animations until component is mounted
