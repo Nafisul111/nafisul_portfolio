@@ -34,7 +34,7 @@ const Experience = () => {
             role: 'Software Developer',
             company: 'Jublitech Solutions Pvt Ltd',
             period: 'Aug 2025 - Present',
-            location: 'Remote',
+            location: 'Lucknow, Uttar Pradesh',
             description: 'Developing scalable, responsive, and high-performance web applications using the MERN stack',
             achievements: [
                 'Built and maintained full-stack web applications using React.js, Node.js, Express.js, and MongoDB',
